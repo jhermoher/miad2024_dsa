@@ -68,13 +68,14 @@ Visualización interactiva de:
 ```
 proyecto/
 │
+├── .dvc/              # Versionamiento de los datos
 ├── data/              # Datos y documentación relacionada
-├── notebooks/         # Jupyter notebooks con análisis
-├── src/               # Código fuente del proyecto
 ├── dashboard/         # Código del panel de control
 ├── docs/              # Documentación adicional
-├── tests/             # Pruebas unitarias y de integración
+├── notebooks/         # Jupyter notebooks con análisis
+├── src/               # Código fuente del proyecto
 ├── submittals/        # Reportes y entregables
+├── tests/             # Pruebas unitarias y de integración
 └── requirements.txt   # Dependencias del proyecto
 ```
 
