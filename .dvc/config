@@ -1,0 +1,6 @@
+[core]
+    remote = aws_remote
+['remote "mystorage"']
+    url = ../../dvc-storage
+['remote "aws_remote"']
+    url = s3://dsa-finalproject-dvc-store
