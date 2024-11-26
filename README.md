@@ -38,19 +38,13 @@ El proyecto implementa un enfoque híbrido innovador que combina:
 
 ### Categorización y Re-categorización
 1. **Análisis No Supervisado**:
-   - Implementación de técnicas de modelado de temas (LDA/NMF)
+   - Implementación de técnicas de modelado de temas (LDA)
    - Descubrimiento de patrones temáticos latentes
-   - Identificación de subcategorías emergentes
 
 2. **Análisis Supervisado**:
    - Utilización de etiquetas existentes para entrenamiento
    - Evaluación de precisión contra categorías predefinidas
    - Refinamiento del modelo de clasificación
-
-3. **Integración y Refinamiento**:
-   - Comparación de resultados supervisados y no supervisados
-   - Identificación de discrepancias
-   - Refinamiento de estructura de categorías
 
 ### Análisis de Sentimientos
 - Implementación de VADER (Valence Aware Dictionary and sEntiment Reasoner)
@@ -59,10 +53,8 @@ El proyecto implementa un enfoque híbrido innovador que combina:
 
 ### Panel de Control
 Visualización interactiva de:
-- Distribución y evolución de categorías
+- Evolución de categorías
 - Tendencias de sentimiento
-- Indicadores de polarización
-- Análisis de frecuencia de palabras
 
 ## 📁 Estructura del Repositorio
 ```
@@ -71,7 +63,7 @@ proyecto/
 ├── .dvc/              # Versionamiento de los datos
 ├── data/              # Datos y documentación relacionada
 ├── dashboard/         # Código del panel de control
-├── docs/              # Documentación adicional
+├── docs/              # Artefactos del despliegue API
 ├── notebooks/         # Jupyter notebooks con análisis
 ├── src/               # Código fuente del proyecto
 ├── submittals/        # Reportes y entregables
@@ -93,7 +85,7 @@ pip install -r requirements.txt
 3. Siga las instrucciones en `docs/setup.md` para la configuración del entorno.
 
 ## 📈 Resultados y Visualizaciones
-El panel de control interactivo está disponible en la instancia EC2 de AWS:
+El panel de control interactivo y la API están disponible en una instancia EC2 de AWS:
 - URL: [Por definir]
 - Credenciales: [Por definir]
 
